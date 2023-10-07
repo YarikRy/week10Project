@@ -1,0 +1,30 @@
+.fonts{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-500px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes slideFromBottom {
+    from {
+        transform: translateY(800px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.slideInLeft{
+    animation: slideInLeft 1s ease-out;
+}
+
+.slideFromBottom{
+    animation: slideFromBottom 1s ease-out
+}

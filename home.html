@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Calorie Tracker</title>
 </head>
-<body class="bg-success">
+<body class="bg-secondary">
     <div class="container text-center">
         <div class="row">
             <div class="col">
-                <h1 class="">Calorie Tracker</h1>
+                <h1 class="mt-5 mb-5 slideInLeft" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Calorie Tracker</h1>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <form class="border border-dark rounded-top">
+                <form class="border border-dark rounded-top slideFromBottom">
                     <label for="food">Food</label>
                     <input class="form-control" type="text" id="food" name="foodName" placeholder="Food Name">
                     <label for="calories">Calories</label>
@@ -32,7 +33,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <table id="table" class="table table-dark">
+                <table id="table" class="table table-dark slideFromBottom">
                     <thead>
                         <tr>
                             <th scope="col">#</th>

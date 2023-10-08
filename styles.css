@@ -21,10 +21,14 @@
     }
 }
 
+
 .slideInLeft{
     animation: slideInLeft 1s ease-out;
 }
 
 .slideFromBottom{
     animation: slideFromBottom 1s ease-out
+}
+.slideFromBottomFast{
+    animation: slideFromBottom .5s ease-out
 }
